@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        double pi=3.14,r,u,alfa;
+        System.out.print("Lütfen dairenin yarıçapını giriniz\t: ");
+        r=scanner.nextDouble();
+        System.out.print("Lütfen daire diliminin açısını giriniz\t: ");
+        alfa=scanner.nextDouble();
+        System.out.println("Dairenin alanı\t: "+pi*r*r);
+        System.out.println("Dairenin çevresi\t: "+2*pi*r);
+        System.out.println("Daire diliminin alanı\t: "+(pi*r*r*alfa)/360);
+    }
+}
